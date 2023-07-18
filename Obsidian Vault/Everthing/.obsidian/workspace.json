@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5330947d9c6a8d1d",
+        "id": "83909ddccef85be6",
         "type": "tabs",
         "children": [
           {
-            "id": "bb6fa6e54aacdef0",
+            "id": "072f30679d5b9258",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Sorting/Insertion Sort.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45a86e07c4743060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Sorting/Stability of Sorting Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Sorting/Insertion Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Sorting/Insertion Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C++/Sorting/Insertion Sort.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,18 +138,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2a40cc6d2ef1fcc",
+  "active": "072f30679d5b9258",
   "lastOpenFiles": [
-    "C++/Sorting/Sorting.md",
-    "C++/Sorting/Insertion Sort.md",
+    "C++/Sorting/3. Stability of Sorting Algorithms.md",
+    "C++/Sorting/7. Merge Sort.md",
+    "C++/Sorting/6. Selection Sort.md",
+    "C++/Sorting/5. Insertion Sort.md",
+    "C++/Sorting/4. Bubble Sort.md",
+    "C++/Sorting/2. STL SORT.md",
+    "divide and conquer.md",
+    "C++/Sorting/1. Sorting.md",
+    "Pasted image 20230716171415.png",
     "Daily Note/Jul 17, 2023.md",
     "Daily Note/Jul 16, 2023.md",
-    "C++/Sorting/Selection Sort.md",
-    "C++/Sorting/Bubble Sort.md",
-    "Pasted image 20230716171415.png",
-    "C++/Sorting/STL SORT.md",
     "C++/C++ VAULT.md",
-    "C++/Sorting/Stability of Sorting Algorithms.md",
     "ntro Sort.md",
     "Daily Note/Jul 15, 2023.md",
     "Sorting.md",
