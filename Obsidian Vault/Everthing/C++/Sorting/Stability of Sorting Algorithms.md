@@ -20,8 +20,8 @@ It would look something like this:
 arr[] = {("Anil",50)("Piyush",50)("Aman",80)("Umesh",80)}
 ```
 
-Examples of Unstable Sorting algorithms include [[Heap Sort]] , [[Quick Sort]] , [[6. Selection Sort]].
-Some examples of stable sorting algorithms include [[4. Bubble Sort]] , [[7. Merge Sort]] and [[5. Insertion Sort]].
+Examples of Unstable Sorting algorithms include [[Heap Sort]] , [[Quick Sort]] , [[Selection Sort]].
+Some examples of stable sorting algorithms include [[Bubble Sort]] , [[Merge Sort]] and [[Insertion Sort]].
 
 If we take Selection Sort and Bubble sort for example:
 - Bubble sort is stable because it does adjacent comparisons and doesn't swaps an element unless its bigger than the next element. So if an element was equal to the adjacent next element it would retain its place, hence its a stable algorithm.

@@ -11,9 +11,9 @@ It is used in many Algorithms.
 1.  When we have a binary array or an array with two types of elements:
 	- It is solvable using quick sort partition algorithms.
 	- Methods:
-		- [[Lomato]] (Faster than Naive)
+		- [[Lomuto]] (Faster than Naive)
 		- [[Hoare]] (Faster than Naive and Lomato)
-		- Naive (Stable but requires extra space, more about stability in [[3. Stability of Sorting Algorithms]])
+		- Naive (Stable but requires extra space, more about stability in [[Stability of Sorting Algorithms]])
 2.  Array with three possible values / or with values around a range / elements occur multiple times then:
 	 - Solvable using Quick Sort Partition Algorithms.
 	 - Methods:
@@ -39,20 +39,20 @@ It is used in many Algorithms.
 			- It has linear time complexity on average
 6. When memory writes are costly :
 	- Method:
-		- [[6. Selection Sort]] 
+		- [[Selection Sort]] 
 			- O(N^2) time complexity in worst case.
 		- [[Cycle Sort]]
 			- O(N^2) but optimal in memory writes.
 7. When only adjacent swaps are allowed:
 	- Method:
-		- [[4. Bubble Sort]]
+		- [[Bubble Sort]]
 		- [[Cocktail Sort]]
 			- Better than bubble because in bubble sort we traverse from left to right but in cocktail sort we move traverse from both sides simultaneously.
 8. When array size is small :
 	- Methods:
-		- [[5. Insertion Sort]] 
+		- [[Insertion Sort]] 
 			- Best when n is around 10 to 20.
-		- [[6. Selection Sort]]
+		- [[Selection Sort]]
 	- Standard library algorithm switches to insertion sort when the array size if small.
 9. When the available space is less :
 	- Standard sorting algorithms require extra space.
@@ -62,14 +62,14 @@ It is used in many Algorithms.
 10. When we don't know about the type of data :
 	- It is mathematically proven that the time complexity can't be better than O(n*logn).
 	- So for general purpose the methods used are:
-		- [[7. Merge Sort]]
+		- [[Merge Sort]]
 		- [[Quick Sort]]
 		- [[Heap Sort]]
 		- Hybrid (Used in STL) :
 			- [[Tim Sort ]]
 				- Python function that used merge sort in general but switches to insertion sort when the array size becomes small
 			- [[Intro Sort]]
-				- It is the standard [[2. STL SORT]]
+				- It is the standard [[STL SORT]]
 				- It is hybrid of insertion sort quick sort and heap sort.
 				- When the divisions become greater than logn it switches from quick sort to heap sort and when size becomes small it switches to insertion sort.
 	- Since both Merge sort and Quick Sort use [[divide and conquer]] they can be used for parallel sorting.

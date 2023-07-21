@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "83909ddccef85be6",
+        "id": "a6369bf80f8e140c",
         "type": "tabs",
         "children": [
           {
-            "id": "072f30679d5b9258",
+            "id": "91329e3a4bea8eb4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Sorting/Quick Sort.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Sorting/Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Sorting/Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Sorting/Quick Sort.md"
+              }
             }
           }
         ]
@@ -138,16 +146,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "072f30679d5b9258",
+  "active": "91329e3a4bea8eb4",
   "lastOpenFiles": [
-    "C++/Sorting/3. Stability of Sorting Algorithms.md",
-    "C++/Sorting/7. Merge Sort.md",
-    "C++/Sorting/6. Selection Sort.md",
-    "C++/Sorting/5. Insertion Sort.md",
-    "C++/Sorting/4. Bubble Sort.md",
-    "C++/Sorting/2. STL SORT.md",
+    "C++/Sorting/Lomuto.md",
+    "C++/Sorting/Hoare.md",
+    "C++/Sorting/Selection Sort.md",
+    "Tim Sort.md",
+    "C++/Sorting/Quick Sort.md",
+    "C++/Sorting/Insertion Sort.md",
+    "quick/Hoare.md",
+    "quick",
+    "C++/Sorting/Stability of Sorting Algorithms.md",
+    "C++/Sorting/Sorting.md",
+    "C++/Sorting/STL SORT.md",
+    "Daily Note/Jul 21, 2023.md",
+    "C++/Sorting/Bubble Sort.md",
+    "C++/Sorting/Merge Sort.md",
+    "Daily Note/Jul 20, 2023.md",
+    "Daily Note/Jul 19, 2023.md",
     "divide and conquer.md",
-    "C++/Sorting/1. Sorting.md",
     "Pasted image 20230716171415.png",
     "Daily Note/Jul 17, 2023.md",
     "Daily Note/Jul 16, 2023.md",

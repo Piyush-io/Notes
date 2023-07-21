@@ -1,6 +1,8 @@
+# Merge Sort 
+
 It is relatively faster algorithm than some of the basic sorting algorithms like insertion sort, bubble sort and selection sort.
 - It uses [[divide and conquer]] approach.
-- It is stable sorting algorithm. (More about that in [[3. Stability of Sorting Algorithms]]). 
+- It is stable sorting algorithm. (More about that in [[Stability of Sorting Algorithms]]). 
 - It works really well for linked lists.
 	- It is because unlike in array in which we need to store elements in contiguous memory, in case of linked lists the elements may not be stores continuously in the memory and we can insert elements in between them in theta(1) time and theta(1) space. Therefore the merge sort algorithm can applied on linked lists without extra space.
 	- It is also the reason why sorting algorithms like quick sort and heap sort work poorly for linked lists for its poor random access speed.

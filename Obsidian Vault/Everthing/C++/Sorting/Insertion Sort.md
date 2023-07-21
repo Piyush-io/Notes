@@ -1,3 +1,5 @@
+# Insertion Sort
+
 It is one of the simple sorting algorithms like bubble sort and selection sort.
 - Its time complexity is O(N^2).
 - It is an in-place and stable algorithm.
