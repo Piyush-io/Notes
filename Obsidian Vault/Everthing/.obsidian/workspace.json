@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a6369bf80f8e140c",
+        "id": "5a2dd77f1c7284e3",
         "type": "tabs",
         "children": [
           {
-            "id": "91329e3a4bea8eb4",
+            "id": "956219ae679e107e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Sorting/Quick Sort.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Sorting/Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Sorting/Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C++/Sorting/Quick Sort.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +138,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91329e3a4bea8eb4",
+  "active": "956219ae679e107e",
   "lastOpenFiles": [
+    "C++/Sorting/Quick Sort.md",
+    "C++/C++ VAULT.md",
+    "Daily Note/Jul 22, 2023.md",
     "C++/Sorting/Lomuto.md",
     "C++/Sorting/Hoare.md",
     "C++/Sorting/Selection Sort.md",
     "Tim Sort.md",
-    "C++/Sorting/Quick Sort.md",
     "C++/Sorting/Insertion Sort.md",
     "quick/Hoare.md",
     "quick",
@@ -168,7 +162,6 @@
     "Pasted image 20230716171415.png",
     "Daily Note/Jul 17, 2023.md",
     "Daily Note/Jul 16, 2023.md",
-    "C++/C++ VAULT.md",
     "ntro Sort.md",
     "Daily Note/Jul 15, 2023.md",
     "Sorting.md",

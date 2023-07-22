@@ -70,3 +70,29 @@ void quickSort(int arr[], int low, int high)
     }
 }
 ```
+
+
+# Optimisation of Quick Sort
+
+Quick sort can be optimised and can be made more useful by doing two things.
+- First is instead of always choosing pivot as the last element or the first element we can use the random function to generate a pivot so as to prevent quick sort to fall in worst case scenario(when the array is sorted). By doing this we prevent selecting the lowest element or the greatest element in the array as the pivot.
+- Second thing is eliminating the tail recursive call of quick sort. 
+	- Tail recursive means when the last statement of the function is a recursive call before returning to the main function.
+	- By eliminating the tail call we optimise memory utilisation by reducing the number of function calls in the stack frame.
+	- In case of quick sort we do this by replacing the following statement with a goto label.
+```c++ 
+	quickSort(arr, pi + 1, high);
+
+with 
+
+	low = p+1;
+	goto start;
+
+and adding start label before:
+
+	start :
+
+	if(low < high)
+```
+
+And that's it.
