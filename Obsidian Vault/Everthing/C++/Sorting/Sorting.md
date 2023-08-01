@@ -17,13 +17,13 @@ It is used in many Algorithms.
 2.  Array with three possible values / or with values around a range / elements occur multiple times then:
 	 - Solvable using Quick Sort Partition Algorithms.
 	 - Methods:
-		 - [[Lomato]] (Faster than Naive)
+		 - [[Lomuto]] (Faster than Naive)
 		 - [[Hoare]] (Faster than Naive and Lomato)
 		 - Naive (Stable but requires extra space)
 3. Array of Size n and have a ***elements in a small range*** :
 	- For example when we have n = 1000 and elements in range 100 to 200.
 	- Method: 
-		- -[[Counting Sort]]
+		- [[Counting Sort]]
 		- It has a time complexity of O(N) if range is small.
 		- If range is k = 100 possible values then O(K) extra space is required and O(n+k) time.
 4.  If array size if n and the range is of order n^2 or n^3 or near that :
@@ -66,7 +66,7 @@ It is used in many Algorithms.
 		- [[Quick Sort]]
 		- [[Heap Sort]]
 		- Hybrid (Used in STL) :
-			- [[Tim Sort ]]
+			- Tim Sort
 				- Python function that used merge sort in general but switches to insertion sort when the array size becomes small
 			- [[Intro Sort]]
 				- It is the standard [[STL SORT]]

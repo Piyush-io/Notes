@@ -15,7 +15,7 @@ It is relatively faster algorithm than some of the basic sorting algorithms like
 
 1. First we need the idea of how to merge two sorted arrays.
 2. Secondly using the above idea we need to learn how to sort two sorted portions of the same array(they should be continuous).
-3. Finally third is the merge sort algorithm where we use [[Recursion]].
+3. Finally third is the merge sort algorithm where we use Recursion.
 
 # Working
 
